@@ -11,9 +11,9 @@ const HomeScreen = () => {
   })
   return (
     <>
-      <Card className="text-center py-3 bg-light">
+      <Card className="text-center py-3 bg-warning">
         <Card.Body>
-          <Card.Text id="joke" className="joke" />
+          <Card.Title id="joke" className="joke" />
         </Card.Body>
       </Card>
       <Container className="text-center py-3">
@@ -21,7 +21,7 @@ const HomeScreen = () => {
           onclick="{generateJoke}"
           id="jokeBtn"
           className="btn"
-          variant="secondary"
+          variant="success"
         >
           Get Another Joke
         </Button>
