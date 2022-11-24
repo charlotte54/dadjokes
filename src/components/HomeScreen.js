@@ -11,7 +11,7 @@ const HomeScreen = () => {
   })
   return (
     <>
-      <Card className="text-center py-3 bg-secondary">
+      <Card className="text-center py-3 bg-light">
         <Card.Body>
           <Card.Text id="joke" className="joke" />
         </Card.Body>
