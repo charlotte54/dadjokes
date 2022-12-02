@@ -1,11 +1,11 @@
-import React, { useEffect } from "react"
-import { Button, Card, Container } from "react-bootstrap"
-import generateJoke from "../function/generateJoke"
+import React, { useEffect } from 'react'
+import { Button, Card, Container } from 'react-bootstrap'
+import generateJoke from '../function/generateJoke'
 
 const HomeScreen = () => {
   useEffect(() => {
-    const jokeBtn = document.getElementById("jokeBtn")
-    jokeBtn.addEventListener("click", generateJoke)
+    const jokeBtn = document.getElementById('jokeBtn')
+    jokeBtn.addEventListener('click', generateJoke)
 
     generateJoke()
   })
@@ -18,7 +18,7 @@ const HomeScreen = () => {
       </Card>
       <Container className="text-center py-3">
         <Button
-          onclick="{generateJoke}"
+          onClick={generateJoke}
           id="jokeBtn"
           className="btn"
           variant="success"
