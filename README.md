@@ -1,3 +1,5 @@
+The URL for this project is as follows: https://verybaddadjokes.netlify.app/.
+
 In the project directory, you can run:
 
 ### `npm start`
